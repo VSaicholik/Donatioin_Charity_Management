@@ -1,1 +1,171 @@
+# Donation & Charity Management System
+
+A modern desktop-based Donation & Charity Management System developed using **Python**, **CustomTkinter**, and **MySQL**.
+This application helps organizations manage donation campaigns, donors, and reports through an interactive and user-friendly interface.
+
+---
+
+ 🚀 Features
+
+ 🔐 Authentication System
+
+* User Registration & Login
+* Secure Password Hashing using `bcrypt`
+* Role-Based Access (Admin & Donor)
+* Email & Password Validation
+
+ 👨‍💼 Admin Dashboard
+
+* Create & Manage Donation Campaigns
+* Monitor Campaign Progress
+* View Donation Statistics
+* Generate Reports & Analytics
+* Export Reports using PDF
+* Dashboard Visualization with Charts
+
+ ❤️ Donor Dashboard
+
+* Browse Active Campaigns
+* Donate to Campaigns
+* Track Donation History
+* View Personal Contribution Impact
+* Profile Management
+
+ 📊 Reporting & Analytics
+
+* Donation Tracking
+* Campaign Performance Insights
+* Graphical Data Visualization using `matplotlib`
+* PDF Report Generation using `reportlab`
+
+---
+
+ 🛠️ Technologies Used
+
+* Python
+* CustomTkinter (Modern GUI)
+* MySQL
+* bcrypt
+* matplotlib
+* Pillow
+* ReportLab
+
+---
+
+ 📂 Project Structure
+
+```bash
+Donation_Charity_Management/
+│
+├── main.py                     # Application Entry Point
+├── config.py                   # Database Configuration
+├── utils.py                    # Helper & Validation Functions
+├── login_register_screens.py   # Login & Registration UI
+├── admin_screens.py            # Admin Dashboard
+├── donor_screens.py            # Donor Dashboard
+├── requirements.txt            # Required Libraries
+├── tables.donation.sql         # Database Schema
+└── background.png              # UI Background Image
+```
+
+---
+
+ ⚙️ Installation & Setup
+
+ 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+cd YOUR_REPOSITORY_NAME
+```
+
+ 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+ 3️⃣ Configure MySQL Database
+
+Update your database credentials inside:
+
+```python
+config.py
+```
+
+Example:
+
+```python
+DB_CONFIG = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'your_password',
+    'database': 'donation_management'
+}
+```
+
+ 4️⃣ Run the Application
+
+```bash
+python main.py
+```
+
+---
+
+ 🖥️ Screens Included
+
+* Login Screen
+* Registration Screen
+* Admin Dashboard
+* Donor Dashboard
+* Campaign Management
+* Donation Tracking
+* Reports & Analytics
+
+---
+
+ 🔒 Security Features
+
+* Password Encryption using `bcrypt`
+* Input Validation
+* Secure Authentication System
+* Role-Based User Access
+
+---
+
+ 📈 Future Enhancements
+
+* Online Payment Gateway Integration
+* Email Notifications
+* Dark Mode UI
+* Cloud Database Deployment
+* Mobile Application Version
+* AI-Based Donation Recommendations
+
+---
+
+ 👨‍💻 Developed By
+
+**Sai Cholik Vempati**
+Master’s in Information Systems
+[GitHub Profile](https://github.com/VSaicholik?utm_source=chatgpt.com)
+[LinkedIn Profile](https://www.linkedin.com/in/saicholik-vempati-59a091328?utm_source=chatgpt.com)
+
+
+
+ ⭐ Project Highlights
+
+* Built a complete donation management workflow
+* Implemented modern desktop GUI using CustomTkinter
+* Integrated MySQL database connectivity
+* Developed secure authentication and role management
+* Created analytical reporting dashboards
+
+
+
+ 📜 License
+
+This project is developed for educational and learning purposes.
+
+
 
